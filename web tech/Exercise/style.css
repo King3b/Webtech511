@@ -1,0 +1,47 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+header{
+    background-color: blue;
+    padding: 20px;
+    color: white;
+    text-align: center;
+
+}
+.hero{
+    background-color: rgb(134, 215, 241);
+    color: black;
+    text-align: center;
+    padding: 50px;
+    
+}
+
+.hero h4{
+    border: 1px solid black;
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    position: relative;
+    display: inline;
+    width: 20%;
+}
+
+footer{
+  background-color: rgb(134, 134, 134);
+  padding: 10px;
+  color: white;
+  text-align: center;
+}
+nav li {
+    list-style: none;
+    display: inline;
+    justify-content: space-between;
+  
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    padding-left: 20px;
+}
