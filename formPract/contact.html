@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Contact</title>
+    <link rel="stylesheet" href="home.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>My website</h1>
+      <nav>
+        <ul>
+          <li><a href="Home.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <form>
+      <h2>Contact Form</h2>
+
+      <label>Name</label>
+      <input type="text" placeholder="Enter name" required />
+
+      <label>Surname</label>
+      <input type="text" placeholder="Enter surname" required />
+
+      <label>Age</label>
+      <input type="number" placeholder="Enter age" />
+
+      <label>Phone Number</label>
+      <input type="tel" placeholder="Enter number" />
+
+      <label>Qualification</label>
+      <select>
+        <option>HCIT</option>
+        <option>BCIT</option>
+        <option>DIT</option>
+      </select>
+
+      <label>Hobbies</label>
+      <div class="inline">
+        <label><input type="checkbox" /> Football</label>
+        <label><input type="checkbox" /> Netball</label>
+      </div>
+
+      <label>Gender</label>
+      <div class="inline">
+        <label><input type="radio" name="gender" /> Male</label>
+        <label><input type="radio" name="gender" /> Female</label>
+      </div>
+
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>

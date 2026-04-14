@@ -1,0 +1,118 @@
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+header {
+  background-color: blue;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+.hero {
+  background-color: rgb(134, 215, 241);
+  color: black;
+  text-align: center;
+  padding: 50px;
+}
+
+.hero h4 {
+  border: 1px solid black;
+  background-color: blue;
+  color: white;
+  padding: 5px;
+  position: relative;
+  display: inline;
+  width: 20%;
+}
+
+footer {
+  background-color: rgb(134, 134, 134);
+  padding: 10px;
+  color: white;
+  text-align: center;
+}
+nav li {
+  list-style: none;
+  display: inline;
+  justify-content: space-between;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  padding-left: 20px;
+}
+
+table {
+  border-collapse: collapse;
+}
+table td,
+table th {
+  border: 1px solid rgb(255, 255, 255);
+  text-align: center;
+  padding: 10px;
+  margin: 20px;
+}
+
+#N {
+  background-color: green;
+}
+#P {
+  background-color: brown;
+}
+#W {
+  background-color: lightblue;
+}
+#I {
+  background-color: yellow;
+}
+#M {
+  background-color: peachpuff;
+}
+
+form {
+  width: 30%;
+  margin: 40px auto;
+  padding: 40px;
+  border-radius: 10px;
+  background: #f4f4f4;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form h2 {
+  text-align: center;
+}
+
+form label {
+  display: block;
+  margin-top: 10px;
+}
+
+form input,
+form select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.inline {
+  display: flex;
+  gap: 10px;
+  margin-top: 5px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 15px;
+  background: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: darkblue;
+}
